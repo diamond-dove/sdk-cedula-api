@@ -17,8 +17,7 @@ composer require diamon-dove/sdk-cedula-api
 ## Usage
 
 ```php
-$validator = Cedula\Validator::make();
-echo $validator->isValid('402-12122133');
+echo Cedula\Validator\Validator::make()->isValid('402-12122133');
 ```
 
 ## Testing
